@@ -1,24 +1,16 @@
 import "./App.css";
+import PageManager from "./features/PageManager";
 import Urun from "./components/Urun";
 
 function App() {
   return (
     <div className="App">
-     <h1>Ürünler</h1>
-      <div className="urunler">
-        <Urun title="Künefe" price="₺25" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-        <Urun title="Baklava" price="₺125" />
-      </div>
-      
+      <PageManager />
+      <h1 id="kadayif">Kadayif</h1>
+      <Urun title="Kadayif" price="10 TL" />
+      <h1 id="baklava">Baklava</h1>
+      <Urun title="baklava" price="10 TL" />
+
     </div>
   );
 }
