@@ -11,10 +11,10 @@ function Navbar() {
       </header>
 
       <nav>
-        <Link to="kunefe">Künefe</Link>
-        <Link to="baklava">Baklava</Link>
-        <Link to="kadayif">Kadayıf</Link>
-        <Link to="icecekler">İçecekler</Link>
+        <a href="#kunefe">Künefe</a>
+        <a href="#baklava">Baklava</a>
+        <a href="#kadayif">Kadayıf</a>
+        <a href="#icecekler">İçecekler</a>
       </nav>
     </div>
   );
